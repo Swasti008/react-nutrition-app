@@ -1,0 +1,78 @@
+
+body{
+  background-image: url("./assets/pexels-photo-1092730.jpeg");
+  background-size: cover;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.eachElement img{
+  height: 140px;
+  width: 150px;
+  border-radius: 2em;
+}
+.Search h1{
+  font-size: 70px;
+  color: rgb(177, 10, 46);
+  border-bottom: 7px solid rgb(236, 121, 161);
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 1rem; 
+  gap: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(197, 130, 130);
+  border-radius: 2em;
+}
+.totalCal{
+  display: flex;
+  gap: 30px;
+}
+.is-info{
+  background-color: rgb(223, 160, 24);
+  width: 90px;
+  height: 30px;
+  border: none;
+  border-radius: 2em;
+  &:hover{
+    background-color: rgb(73, 45, 10);
+    color: aliceblue;
+
+  }
+}
+.plus{
+  background-color: rgb(223, 160, 24);
+  border: 2px solid brown;
+  &:hover{
+    background-color: rgb(73, 45, 10);
+    color: aliceblue;
+
+  }
+}
+p{
+  font-size: 20px;
+}
+input{
+  height: 20px;
+  width: 200px;
+}
+#SearchBox{
+  width: 500px;
+  height: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-top-right-radius: 3em;
+  border-bottom-left-radius: 3em;
+  border: 3px solid rgba(255, 0, 0, 0.33);
+  &:hover{
+    border: 3px solid rgb(230, 23, 23);
+  }
+  color: brown;
+  font-size: 20px;
+}
